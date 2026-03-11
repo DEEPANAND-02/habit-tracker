@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://habitflow-app.onrender.com'],
+  origin: ['http://localhost:5173', 'https://habitflow-app.onrender.com', 'https://habit-tracker-1-34tk.onrender.com'],
   credentials: true
 }));
 app.use(express.json());

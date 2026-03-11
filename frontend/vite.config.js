@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://habit-tracker-1-34tk.onrender.com',
+        target: 'https://habit-tracker-ut5q.onrender.com',
         changeOrigin: true,
       }
     }
