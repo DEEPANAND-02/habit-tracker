@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: '',
+  baseURL: 'https://habit-tracker-ut5q.onrender.com/api',
 });
 
 instance.interceptors.request.use((config) => {
